@@ -1,0 +1,42 @@
+:root {
+    --imagem-fundo: url('./img/corinthians.jpg'); /* Imagem inicial */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--imagem-fundo) no-repeat center center/cover;
+    transition: 1s;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+#time {
+    padding: 8px 12px;
+    font-size: 22px;
+}
+
+#trocar-imagem {
+    padding: 8px 12px;
+    font-size: 24px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.erro {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: none; /* Inicialmente, a mensagem de erro está oculta */
+}
