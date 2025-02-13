@@ -34,9 +34,9 @@ body {
     cursor: pointer;
 }
 .erro {
-    color: red;
+    color: rgb(255, 0, 0);
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
-    display: none; /* Inicialmente, a mensagem de erro está oculta */
+    display: none; 
 }
